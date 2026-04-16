@@ -27,7 +27,8 @@
       "Bash(find:*)",
       "Bash(mkdir:*)",
       "Bash(cp:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(php artisan l5-swagger:generate:*)"
     ],
     "deny": [
       "Bash(git push --force:*)",
