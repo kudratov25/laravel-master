@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan:*)",
+      "Bash(php artisan make:*)",
+      "Bash(php artisan migrate:*)",
+      "Bash(php artisan route:*)",
+      "Bash(php artisan db:*)",
+      "Bash(php artisan tinker:*)",
+      "Bash(php artisan test:*)",
+      "Bash(php artisan storage:*)",
+      "Bash(php -l:*)",
+      "Bash(php -r:*)",
+      "Bash(composer install:*)",
+      "Bash(composer require:*)",
+      "Bash(composer dump-autoload:*)",
+      "Bash(composer update:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git checkout:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(wc:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(rm -rf:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "laravel-boost"
+  ]
+}
