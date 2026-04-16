@@ -140,4 +140,3 @@ Files are uploaded separately, then attached by ID during store/update.
 - `app/Http/Resources/Api/V1/ExamplePost/`
 - `app/Http/Controllers/Api/V1/Admin/ExamplePostController.php`
 
-**Delete the Example files once you understand the pattern and start your own resources.**
